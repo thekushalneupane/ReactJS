@@ -1,0 +1,51 @@
+*{
+  margin :0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+html,body{
+  height: 100%;
+  width: 100%;
+  background-color: black;
+}
+
+.parent{
+  padding: 20px;
+  display: flex;
+  /* align-items: center; */
+  flex: wrap;
+  gap: 20px;
+}
+
+
+.card{
+  color: white;
+  width:300px;
+  border: 1px solid bisque;
+  padding: 20px;
+  text-align: center;
+  border: 2px solid rgb(255, 255, 255);
+  border-radius: 13px;
+  background-color: rgb(32, 31, 31);
+}
+
+.card img{
+  height: 120px;
+  width: 120px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.card p{
+  margin: 20px 0;
+}
+.card button{
+  padding: 8px 16px;
+  background-color: white;
+  color: black;
+  border: none;
+  border-radius: 5px;
+  font-size: 15px;
+}

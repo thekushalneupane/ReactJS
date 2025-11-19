@@ -1,0 +1,124 @@
+*{
+  margin :0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+html,body{
+  height: 100%;
+  width: 100%;
+  /* background-color: black; */
+}
+
+.parent{
+  /* height: 100vw;
+  width: 100vw; */
+  min-height: 100vh;
+  background-color: #000000;
+  padding: 20px;
+  display: flex;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+.card{
+  height: 330px;
+  width: 300px;
+  background-color: #fff;
+  border-radius: 30px;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.card .top{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+
+.top img{
+  height: 40px;
+  width: 40px;
+  border: 1px solid #dadada;
+  border-radius: 50%;
+}
+
+.top button{
+  display: flex;
+  align-items: center;
+  border: 1px solid #dadada;
+  border-radius: 5px;
+  padding: 4px 8px;
+}
+
+/* .center{
+  display: flex;
+  flex-direction: column;
+  gap: 1px;
+} */
+.center h3{
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.center span{
+  font-size: 13px;
+  font-weight: 400;
+  color: #8b8b8b;
+}
+
+.center h2{
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.center .tag{
+  display: flex;
+  gap: 20px;
+  margin-top: 10px;
+}
+
+.center .tag h4{
+  font-size: 12px;
+  background-color: #dadada;
+  color: #111;
+  padding: 4px 8px;
+  font-weight: 500;
+  border-radius: 5px;
+}
+
+.bottom{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-top: 1px solid #b1b1b1;
+  padding-top: 15px;
+  /* background-color: blue; */
+}
+
+.bottom button{
+  padding:4px 7px ;
+  border: 1px solid #b1b1b1;
+  border-radius: 7px;
+  background-color: #111;
+  color: white;
+  on-hover
+}
+
+.bottom button:hover {
+  cursor: pointer;              /* changes arrow to hand pointer */
+}
+
+
+.bottom h3{
+  font-size: 17px;
+}
+
+.bottom p{
+  font-size: 13px;
+  color: #8b8b8b;
+}
