@@ -1,0 +1,9 @@
+input{
+  margin: 10px;
+}
+
+.box{
+  height: 400px;
+  width: 350px;
+  background-color: aquamarine;
+}
